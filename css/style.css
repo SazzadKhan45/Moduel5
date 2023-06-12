@@ -1,0 +1,33 @@
+.container{
+    width: 80%;
+}
+
+
+.mainmenu {
+
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* justify-content: center; */
+}
+.fullname {
+    font-size: 45px;
+}
+.Rstyle {
+    color: #FD6E0A;
+}
+.menulist ul {
+    display: flex;
+}
+.menulist li{
+    list-style: none;
+}
+.menulist ul a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
