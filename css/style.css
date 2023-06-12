@@ -1,33 +1,122 @@
-.container{
-    width: 80%;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
-
-.mainmenu {
-
-    
-}
-
-.menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* justify-content: center; */
-}
-.fullname {
-    font-size: 45px;
-}
-.Rstyle {
+/* common color style here */
+.primary-color {
     color: #FD6E0A;
 }
-.menulist ul {
-    display: flex;
-}
-.menulist li{
-    list-style: none;
-}
-.menulist ul a {
-    color: black;
-    text-decoration: none;
+
+.btn-primary {
     font-size: 20px;
+    color: white;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/* header navigation style here */
+.headerbg {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    margin-bottom: 130px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav ul a {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/* header banner styles here */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.banner-sologan {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-contact {
+    color: #FD6E0A;
+    font-size: 20px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+/* about section style here */
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    height: 550px;
+    background-color: #FFF8F3;
+    padding: 210px 150px;
+}
+
+.section-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
 }
