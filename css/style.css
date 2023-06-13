@@ -112,7 +112,7 @@ main {
 
 }
 
-.section-title {
+.section-header {
     color: #181818;
     font-weight: 700;
     font-size: 35px;
@@ -200,9 +200,90 @@ main {
 }
 
 /* A summary of My Resume style start here */
-.Resume-title {
+.Resume-header {
     text-align: center;
     font-weight: 700;
     font-size: 35px;
     margin-top: 130PX;
+    margin-bottom: 110px;
+}
+
+.Resume {
+    display: flex;
+    gap: 70px;
+}
+
+.My-education {
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.subject-name {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.University {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.Education-description {
+    color: #757575;
+    line-height: 28px;
+}
+
+hr {
+    margin: 30px 0;
+    border: 1px solid #D1D1D1;
+}
+
+.cb-btn {
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: -70px;
+}
+
+/* ---- fotter part style here */
+.fotter-part {
+    display: flex;
+    background: #FFF8F3;
+    gap: 120px;
+    padding: 130px 230px;
+}
+
+.fotter-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.contact-description {
+    color: #474747;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.social-icon {
+    margin-right: 24px
+}
+
+.User-input {
+    width: 461px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    padding-left: 30px;
+    border: none;
+}
+.text-height{
+    height: 180px;
 }
