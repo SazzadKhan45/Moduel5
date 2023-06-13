@@ -27,6 +27,7 @@
     background-repeat: no-repeat;
     background-position: bottom right, left;
     margin-bottom: 130px;
+    height: 800px;
 }
 
 nav {
@@ -94,16 +95,21 @@ nav ul a {
     margin-left: 30px;
 }
 
+.mary {
+    height: 745px;
+}
+
 /* about section style here */
 main {
-    width: 1140px;
     margin: 0 auto;
+    width: 1140px;
 }
 
 .about {
-    height: 550px;
+
     background-color: #FFF8F3;
-    padding: 210px 150px;
+    padding: 130px 150px;
+
 }
 
 .section-title {
@@ -119,4 +125,84 @@ main {
     font-size: 18px;
     text-align: center;
     margin-bottom: 30px;
+}
+
+.about-info {
+    display: flex;
+
+}
+
+.info {
+    margin-right: 40px;
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.info-sub-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* What I Do section style here */
+.Ido {
+    margin-top: 130px;
+    padding: 0 130px;
+    text-align: center;
+}
+
+.Ido-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.Ido-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+/* course list style start here */
+.course-list {
+    display: flex;
+
+}
+
+.course {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    margin: 0 12px;
+    padding-left: 30px;
+}
+
+.course-images {
+    padding: 30px 0;
+
+}
+
+.course-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.course-description {
+    color: #757575;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+/* A summary of My Resume style start here */
+.Resume-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 130PX;
 }
